@@ -1,0 +1,13 @@
+@if (ismenurequired) {
+    <div class="dashboard">
+      <span>Welcome</span>
+      <nav>
+        <a routerLink="">Home</a>
+        <a *ngIf = "isadminuser" routerLink="/user">User</a>
+        <a routerLink="/customer">Customer</a>
+      </nav>
+      <a routerLink="/login" class="logout">Logout</a>
+    </div>
+  }
+  
+<router-outlet></router-outlet>

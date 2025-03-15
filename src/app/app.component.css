@@ -1,0 +1,26 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.dashboard {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .logout {
+    margin-left: auto; /* Pushes logout to the right */
+    font-weight: bold;
+  }
+  

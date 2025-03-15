@@ -1,0 +1,131 @@
+{
+  "user": [
+    {
+      "id": "mhmdb",
+      "name": "bathish",
+      "password": "71741800",
+      "email": "mhmd@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "jdoe",
+      "name": "John Doe",
+      "password": "password123",
+      "email": "johndoe@example.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "asmith",
+      "name": "Alice Smith",
+      "password": "alicepass",
+      "email": "alice@example.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "bwayne",
+      "name": "Bruce Wayne",
+      "password": "batman007",
+      "email": "bruce@wayne.com",
+      "gender": "male",
+      "role": "quality",
+      "isactive": true
+    },
+    {
+      "id": "clarkk",
+      "name": "Clark Kent",
+      "password": "superman",
+      "email": "clark@dailyplanet.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "wonder",
+      "name": "Diana Prince",
+      "password": "wonder",
+      "email": "diana@amazon.com",
+      "gender": "female",
+      "role": "moderator",
+      "isactive": true
+    },
+    {
+      "id": "rawanb",
+      "name": "roro",
+      "password": "123456",
+      "email": "roor@gmail.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "Staff",
+      "id": "54b5"
+    },
+    {
+      "code": "quality",
+      "name": "Quality",
+      "id": "3376"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "bathish1",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 2,
+      "name": "bathish2",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 3,
+      "name": "bathish3",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 4,
+      "name": "bathish4",
+      "Creditlimit": 1000
+    }
+  ]
+}

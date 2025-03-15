@@ -1,0 +1,34 @@
+/* Center the card and set the form width */
+mat-card {
+  width: 75%;
+  margin: 40px auto; /* Centers the card horizontally and adds some space on top and bottom */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Optional: Styling for the form fields and buttons inside mat-card */
+mat-form-field {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.example-full-width {
+  width: 100%; /* Makes the form fields fill the available width */
+}
+
+/* Styling the buttons */
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Adjusting button width to fit with the form layout */
+button.mat-raised-button {
+  width: 48%; /* Ensures buttons are aligned side by side */
+  display: inline-block;
+}
+
+button[routerLink] {
+  margin-left: 10px; /* Adds space between the buttons */
+}
